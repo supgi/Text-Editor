@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
+
   <head>
+
     <meta charset="utf-8">
     <title id="title">Editor</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./style.css">
+
   </head>
+
   <body>
-    <textarea id="text" onkeyup="handleChangeText()" name="name"></textarea>
+
+    <p id="style"></p>
+    <textarea id="text" onkeyup="handleChangeText()" onkeydown="editorColor()"></textarea>
+
   </body>
+
   <script src="./script.js"></script>
+
 </html>
