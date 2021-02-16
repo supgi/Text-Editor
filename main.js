@@ -188,12 +188,12 @@ const templateMenu = [
     ]
   },
   {
-    label: 'Ajuda',
+    label: 'Sobre',
     submenu: [
       {
         label: 'Github',
         click(){
-          shell.openExternal('https://www.google.com/')
+          shell.openExternal('https://github.com/supgi/Text-Editor/')
         }
       }
     ]
