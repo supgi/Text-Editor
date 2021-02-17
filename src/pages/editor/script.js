@@ -23,9 +23,10 @@ function editorColor() {
       let text = document.getElementById('text');
       let style = document.getElementById('style');
       let saida = text.value;
-      /*
+
       saida = saida.replace(/ /g, '&nbsp');
       saida = saida.replace(/\n/g, '<br />');
+      /*
       saida = saida.replace(/^banana&nbsp/g, '<span style="color:red">banana</span>&nbsp');
       saida = saida.replace(/^banana$/g, '<span style="color:red">banana</span>&nbsp');
       saida = saida.replace(/banana$/g, '<span style="color:red">banana</span>');
